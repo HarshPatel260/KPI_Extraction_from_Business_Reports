@@ -1,3 +1,5 @@
 Thesis_Writing/
 KPI_Extract/utils.py
 *.pyc
+Docs/
+KPI_Extract/__pycache__/

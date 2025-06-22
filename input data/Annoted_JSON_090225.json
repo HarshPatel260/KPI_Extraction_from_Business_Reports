@@ -1,0 +1,323 @@
+[
+
+  {
+    "sentence_id": 1,
+    "tokens": [
+      "The", "Continental", "team", "is", "made", "up", "of", "202,763", "employees",
+      "at", "505", "locations", "for", "production,", "research", "&", "development",
+      "and", "administration", "in", "56", "countries", "and", "markets", ".", "Added",
+      "to", "this", "are", "distribution", "locations", ",", "with", "865",
+      "company-owned", "tire", "outlets", "and", "a", "total", "of", "around",
+      "5,300", "franchises", "and", "operations", "with", "a", "Continental",
+      "brand", "presence."
+    ],
+    "labels": [
+      "O", "S-ORG", "O", "O", "O", "O", "O", "S-VALUE", "S-KPI",
+      "O", "S-VALUE", "S-KPI", "O", "O", "O", "O", "O",
+      "O", "O", "O", "O", "O", "O", "O", "O", "O",
+      "O", "O", "O", "O", "O", "O", "O", "O",
+      "O", "O", "O", "O", "O", "O", "O", "O",
+      "S-VALUE", "S-KPI", "O", "O", "O", "O", "O",
+      "O", "O"
+    ],
+    "text": "The Continental team is made up of 202,763 employees at 505 locations for production, research & development and administration in 56 countries and markets. Added to this are distribution locations, with 865 company-owned tire outlets and a total of around 5,300 franchises and operations with a Continental brand presence."
+
+  
+  },
+  
+  {
+    "sentence_id": 2,
+    "tokens": [
+      "The", "number", "of", "employees", "in", "the", "Continental", "Group",
+      "as", "at", "December", "31,", "2023,", "was", "202,763,", "up",
+      "3,725", "from", "199,038", "in", "the", "previous", "year."
+    ],
+    "labels": [
+      "O", "O", "O", "B-KPI", "O", "O", "B-ORG", "E-ORG",
+      "O", "O", "S-MONTH", "O", "S-YEAR", "O", "S-CY-VALUE", "O",
+      "S-VALUE", "O", "S-PY-VALUE", "O", "O", "O", "O"
+    ],
+    "text": "The number of employees in the Continental Group as at December 31, 2023, was 202,763, up 3,725 from 199,038 in the previous year."
+
+  
+  },
+  
+  
+  
+  
+  {
+    "sentence_id": 3,
+    "tokens": [
+      "Total", "revenue", "increased", "from", "€29,520", "million",
+      "in", "2022", "to", "€31,207", "million", "in", "2023,", "representing",
+      "an", "increase", "of", "€1,688", "million,", "or", "6%"
+    ],
+    "labels": [
+      "B-KPI", "E-KPI", "O", "O", "S-PY-VALUE", "S-PY-UNIT",
+      "O", "S-PY-YEAR", "O", "S-CY-VALUE", "S-PY-UNIT", "O", "S-CY-YEAR", "O",
+      "O", "O", "O", "B-VALUE", "E-VALUE", "O", "O"
+    ],
+    "text": "Total revenue increased from €29,520 million in 2022 to €31,207 million in 2023, representing an increase of €1,688 million, or 6%."
+  },
+  {
+    "sentence_id": 4,
+    "tokens": [
+      "In", "fiscal", "2024,", "due", "to", "the", "establishment",
+      "of", "water", "targets,", "we", "reduced", "the", "water",
+      "withdrawal", "from", "14.26", "million", "m3", "in", "fiscal",
+      "2023", "to", "water", "withdrawal", "of", "12.8", "million",
+      "m3,", "of", "which", "4.0", "million", "m3", "was", "supplied",
+      "by", "external", "companies;", "this", "includes", "publicly",
+      "and", "privately", "owned", "water", "companies."
+    ],
+    "labels": [
+      "O", "O", "S-CY-YEAR", "O", "O", "O", "O",
+      "O", "O", "O", "O", "O", "O", "B-KPI",
+      "E-KPI", "O", "B-PY-VALUE", "I-PY-VALUE", "E-PY-UNIT", "O", "O",
+      "S-PY-YEAR", "O", "B-KPI", "E-KPI", "O", "B-CY-VALUE",
+      "I-CY-VALUE", "E-CY-UNIT", "O", "O", "O", "O",
+      "O", "O", "O", "O", "O", "O", "O",
+      "O", "O", "O", "O", "O", "O","O"
+    ],
+    "text": "In fiscal 2024, due to the establishment of water targets, we reduced the water withdrawal from 14.26 million m3 in fiscal 2023 to water withdrawal of 12.8 million m3, of which 4.0 million m3 was supplied by external companies; this includes publicly and privately owned water companies."
+  },
+  {
+    "sentence_id": 5,
+    "tokens": [
+      "In", "fiscal", "2024,", "our", "water", "discharge", "was",
+      "12.0", "million", "m3."
+    ],
+    "labels": [
+      "O", "O", "S-YEAR", "O", "B-KPI", "E-KPI", "O",
+      "B-VALUE", "I-VALUE", "E-UNIT"
+    ],
+    "text": "In fiscal 2024, our water discharge was 12.0 million m3."
+  },
+  {
+    "sentence_id": 6,
+    "tokens": [
+      "Water", "consumption", "is", "a", "water", "substream", "with", "a", 
+      "major", "environmental", "impact", "because", "the", "water", "is", 
+      "no", "longer", "available", "for", "the", "ecosystem’s", "use.", 
+      "Siemens’", "water", "consumption", "is", "mostly", "linked", "to", 
+      "evaporation", "and", "is", "comparably", "small,", "with", "just", 
+      "0.67", "million", "m3", "of", "total", "water", "consumption."
+    ],
+    "labels": [
+      "B-KPI", "E-KPI", "O", "O", "O", "O", "O", "O", 
+      "O", "O", "O", "O", "O", "O", "O", 
+      "O", "O", "O", "O", "O", "O", "O", 
+      "S-ORG", "B-KPI", "E-KPI", "O", "O", "O", "O", 
+      "O", "O", "O", "O", "O", "O", "O",
+      "B-VALUE", "E-VALUE", "S-UNIT", "O", "O", "O", "O"
+    ],
+    "text": "Water consumption is a water substream with a major environmental impact because the water is no longer available for the ecosystem’s use. Siemens’ water consumption is mostly linked to evaporation and is comparably small, with just 0.67 million m3 of total water consumption."
+  },
+  {
+    "sentence_id": 7,
+    "tokens": [
+      "In", "fiscal", "2024,", "we", "reported", "in", "our", 
+      "continuing", "operations", "research", "and", "development", 
+      "expenditures", "of", "€6.3", "billion", "and", "employed", 
+      "51,600", "R&D", "professionals", "dedicated", "to", "driving", 
+      "forward", "innovation."
+    ],
+    "labels": [
+      "O", "O", "S-YEAR", "O", "O", "O", "O", 
+      "O", "O", "B-KPI", "I-KPI", "E-KPI", 
+      "O", "O", "B-VALUE", "E-UNIT", "O", "O", 
+      "B-VALUE", "B-KPI", "E-KPI", "O", "O", 
+      "O", "O", "O"
+    ],
+    "text": "In fiscal 2024, we reported in our continuing operations research and development expenditures of €6.3 billion and employed 51,600 R&D professionals dedicated to driving forward innovation."
+  },
+  {
+    "sentence_id": 8,
+    "tokens": [
+      "In", "fiscal", "2024,", "the", "share", "of", "female",
+      "employees", "at", "Siemens", "was", "28%"
+    ],
+    "labels": [
+      "O", "O", "S-YEAR", "O", "B-KPI", "I-KPI", "I-KPI",
+      "E-KPI", "O", "S-ORG", "O", "B-VALUE"
+    ],
+    "text": "In fiscal 2024, the share of female employees at Siemens was 28%."
+  },
+  {
+    "sentence_id": 9,
+    "tokens": [
+      "In", "fiscal", "2024,", "which", "ended", "on", "September", "30,", "2024,", 
+      "Siemens", "generated", "revenues", "of", "€76", "billion", "in", "its", 
+      "continuing", "operations", "and", "net", "income", "of", "€9.0", "billion."
+    ],
+    "labels": [
+      "O", "O", "S-YEAR", "O", "O", "O", "S-MONTH", "O", "S-YEAR", 
+      "S-ORG", "O", "S-KPI", "O", "B-VALUE", "E-VALUE", "O", "O", 
+      "O", "O", "O", "B-KPI", "E-KPI", "O", "B-VALUE", "E-VALUE"
+    ],
+    "text": "In fiscal 2024, which ended on September 30, 2024, Siemens generated revenues of €76 billion in its continuing operations and net income of €9.0 billion."
+  },
+  {
+    "sentence_id": 10,
+    "tokens": [
+      "As", "of", "September", "30,", "2024,", "the", "company",
+      "had", "approximately", "327,000", "employees", "worldwide."
+    ],
+    "labels": [
+      "O", "O", "S-MONTH", "O", "S-YEAR", "O", "S-ORG",
+      "O", "O", "S-VALUE", "B-KPI", "E-KPI"
+    ],
+    "text": "As of September 30, 2024, the company had approximately 327,000 employees worldwide."
+  },
+  {
+    "sentence_id": 11,
+    "tokens": [
+      "In", "fiscal", "2023,", "the", "share", "of", "material", "recycling",
+      "in", "our", "total", "waste", "stream", "(excluding", "construction",
+      "waste)", "remained", "at", "81%."
+    ],
+    "labels": [
+      "O", "O", "S-YEAR", "O", "O", "O", "B-KPI", "E-KPI",
+      "O", "O", "B-KPI", "E-KPI", "O", "O", "O",
+      "O", "O", "O", "S-VALUE"
+    ],
+    "text": "In fiscal 2023, the share of material recycling in our total waste stream (excluding construction waste) remained at 81%."
+  },
+  {
+    "sentence_id": 12,
+    "tokens": [
+      "Personnel", "expenses", "amount", "to", "EUR", "1,391.9", "million", "in", "total",
+      "(2022:", "EUR", "1,380.1", "million).", "This", "line", "item", "includes", 
+      "wages", "and", "salaries", "totaling", "EUR", "1,117.2", "million", 
+      "(2022:", "EUR", "1,101.5", "million),", "social", "security", "costs", "of",
+      "EUR", "149.9", "million", "(2022:", "EUR", "155.1", "million)", "and",
+      "pension", "costs", "of", "EUR", "124.8", "million", "(2022:", "EUR", "123.5", "million)."
+    ],
+    "labels": [
+      "B-KPI", "E-KPI", "O", "O", "S-CY-UNIT", "B-CY-VALUE", "E-CY-VALUE", "O", "O",
+      "S-PY-YEAR", "S-PY-UNIT", "B-PY-VALUE", "E-PY-VALUE", "O", "O", "O", "O",
+      "B-KPI", "O", "E-KPI", "O", "S-CY-UNIT", "B-CY-VALUE", "E-CY-VALUE",
+      "S-PY-YEAR", "S-PY-UNIT", "B-PY-VALUE", "E-PY-VALUE", "B-KPI", "I-KPI", "E-KPI", "O",
+      "S-CY-UNIT", "B-CY-VALUE", "E-CY-VALUE", "S-PY-YEAR", "S-PY-YEAR", "B-PY-VALUE", "E-PY-VALUE", "O",
+      "B-KPI", "E-KPI", "O", "S-CY-UNIT", "B-CY-VALUE", "E-CY-VALUE", "S-PY-YEAR", "S-PY-YEAR", "B-PY-VALUE", "E-PY-VALUE"
+    ],
+    "text": "Personnel expenses amount to EUR 1,391.9 million in total (2022: EUR 1,380.1 million). This line item includes wages and salaries totaling EUR 1,117.2 million (2022: EUR 1,101.5 million), social security costs of EUR 149.9 million (2022: EUR 155.1 million) and pension costs of EUR 124.8 million (2022: EUR 123.5 million)."
+  },
+  {
+    "sentence_id": 13,
+    "tokens": [
+      "As", "at", "December", "31,", "2023,", "the", "Brenntag", "Group",
+      "had", "a", "workforce", "of", "17,709", "(Dec.", "31,", "2022:",
+      "17,540)."
+    ],
+    "labels": [
+      "O", "O", "S-MONTH", "O", "S-CY-YEAR", "O", "B-ORG", "E-ORG",
+      "O", "O", "S-KPI", "O", "S-CY-VALUE", "S-MONTH", "O", "S-PY-YEAR",
+      "S-PY-VALUE"
+    ],
+    "text": "As at December 31, 2023, the Brenntag Group had a workforce of 17,709 (Dec. 31, 2022: 17,540)."
+  },  
+  {
+    "sentence_id": 14,
+    "tokens": [
+      "Brenntag", "generated", "sales", "of", "EUR", "16.82", "billion",
+      "and", "operating", "gross", "profit", "of", "EUR", "4.04", "billion",
+      "in", "financial", "year", "2023.", "Our", "operating", "EBITA",
+      "came", "to", "EUR", "1.27", "billion."
+    ],
+    "labels": [
+      "S-ORG", "O", "S-KPI", "O", "S-UNIT", "B-VALUE", "E-VALUE",
+      "O", "B-KPI", "I-KPI", "E-KPI", "O", "S-UNIT", "B-VALUE", "E-VALUE",
+      "O", "O", "O", "S-YEAR", "O", "B-KPI", "E-KPI",
+      "O", "O", "S-UNIT", "B-VALUE", "E-VALUE"
+    ],
+    "text": "Brenntag generated sales of EUR 16.82 billion and operating gross profit of EUR 4.04 billion in financial year 2023. Our operating EBITA came to EUR 1.27 billion."
+  },
+  {
+    "sentence_id": 15,
+    "tokens": [
+      "Operating", "gross", "profit", "at", "Brenntag", "Essentials", "came",
+      "to", "EUR", "2.53", "billion.", "Operating", "EBITA", "stood", "at",
+      "EUR", "848.9", "million", "in", "financial", "year", "2023."
+    ],
+    "labels": [
+      "B-KPI", "I-KPI", "E-KPI", "O", "B-ORG", "E-ORG", "O",
+      "O", "S-UNIT", "B-VALUE", "E-VALUE", "B-KPI", "E-KPI", "O", "O",
+      "S-UNIT", "B-VALUE", "E-VALUE", "O", "O", "O", "S-YEAR"
+    ],
+    "text": "Operating gross profit at Brenntag Essentials came to EUR 2.53 billion. Operating EBITA stood at EUR 848.9 million in financial year 2023."
+  },
+  {
+    "sentence_id": 16,
+    "tokens": [
+      "The", "volume", "of", "reused", "water", "was", "289", "million",
+      "cubic", "meters", "in", "the", "reporting", "year."
+    ],
+    "labels": [
+      "O", "O", "O", "B-KPI", "E-KPI", "O", "B-VALUE", "I-VALUE",
+      "B-UNIT", "E-UNIT", "O", "O", "O", "O"
+    ],
+    "text": "The volume of reused water was 289 million cubic meters in the reporting year."
+  },
+  {
+    "sentence_id": 17,
+    "tokens": [
+      "At", "221", "million", "cubic", "meters,", "overall", "water", "usage",
+      "in", "the", "Group", "is", "below", "the", "previous", "year’s", "figure."
+    ],
+    "labels": [
+      "O", "B-VALUE", "E-VALUE", "B-UNIT", "E-UNIT", "O", "B-KPI", "E-KPI",
+      "O", "O", "O", "O", "O", "O", "O", "O", "O"
+    ],
+    "text": "At 221 million cubic meters, overall water usage in the Group is below the previous year’s figure."
+  },
+  {
+    "sentence_id": 18,
+    "tokens": [
+      "Water", "evaporation", "losses", "went", "down", "17%", 
+      "in", "the", "reporting", "year", "to", "12", "million", "cubic", "meters."
+    ],
+    "labels": [
+      "B-KPI", "I-KPI", "E-KPI", "O", "O", "O", 
+      "O", "O", "O", "O", "O", "S-VALUE", "E-VALUE", "B-UNIT", "E-UNIT"
+    ],
+    "text": "Water evaporation losses went down 17% in the reporting year to 12 million cubic meters."
+  },
+  {
+    "sentence_id": 19,
+    "tokens": [
+      "The", "total", "volume", "of", "once-through", "cooling", "water", 
+      "was", "180", "million", "cubic", "meters", "in", "the", "reporting", "year."
+    ],
+    "labels": [
+      "O", "O", "O", "O", "O", "B-KPI", "E-KPI",
+      "O", "B-VALUE", "E-VALUE", "B-UNIT", "E-UNIT", "O", "O", "O", "O"
+    ],
+    "text": "The total volume of once-through cooling water was 180 million cubic meters in the reporting year."
+  },
+
+  {
+    "sentence_id": 20,
+    "tokens": [
+      "Sales", "decreased", "by", "20.0%", "to", "€14,377", "million", 
+      "(previous", "year:", "17,968", "million),", "predominantly", "due", "to", 
+      "the", "lower", "selling", "price", "level", "and", "a", "drop", "in", "sales", "volumes."
+    ],
+    "labels": [
+      "S-KPI", "O", "O", "O", "O", "B-CY-VALUE", "E-CY-VALUE",
+      "O", "O", "B-PY-VALUE", "E-PY-VALUE", "O", "O", "O",
+      "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"
+    ],
+    "text": "Sales decreased by 20.0% to €14,377 million (previous year: 17,968 million), predominantly due to the lower selling price level and a drop in sales volumes."
+  }
+
+
+      
+
+
+
+
+
+]
+  
+  
